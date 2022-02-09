@@ -1,0 +1,5 @@
+színezés: minden szöveg külön színű legyen 
+legyen design
+típusok (dőlt, félkövér)
+data if this.state.datesource.length=0 - írja ki, hogy nincs adat (nincs adat erről a ranglistáról)
+névjegy 
