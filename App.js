@@ -12,7 +12,7 @@ import Fooldal from './Fooldal.js';
 
 function HomeScreen({ navigation }) {
   return (
-    <Fooldal/>
+    <Fooldal />
   );
 }
 
@@ -52,7 +52,7 @@ const Drawer = createDrawerNavigator();
 
 export default function App() {
   return (
-    <NavigationContainer>
+    <NavigationContainer >
       <Drawer.Navigator initialRouteName="Főoldal">
         <Drawer.Screen name="Főoldal" component={HomeScreen} />
         <Drawer.Screen name="Ranglista 4x4" component={NotificationsScreen4} />
