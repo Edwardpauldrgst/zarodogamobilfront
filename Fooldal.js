@@ -44,11 +44,24 @@ export default class FetchExample extends React.Component {
     }
 
     return(
-      <View style={{flex: 1, paddingTop:20}}>
-        <Text>
-            Készítette: Pál Edvárd és Kathy Levente
+      <View style={{flex: 1, paddingTop:20, backgroundColor:"#1a1c2c"}}>
+        <Text style={{color:"#f4f4f4",fontSize:24,textAlign:"center",marginleft:20,marginTop:5,marginBottom:5}} >
+            Ed & Levi Sudoku
         </Text>
-       
+        <Text style={{color:"#f4f4f4",fontSize:18,textAlign:"center",marginleft:20,marginTop:5,marginBottom:5}} >
+            Üdvözöllek az Ed & Levi Sudoku weboldalán.
+        </Text>
+        
+  <Text style={{color:"#f4f4f4",fontSize:12,textAlign:"center",marginleft:20,marginTop:5,marginBottom:5}} >Az Ed & Levi Sudoku egy magyarok által fejlesztett Kropki Sudoku játék és weboldal. </Text>
+  <Text style={{color:"#f4f4f4",fontSize:12,textAlign:"center",marginleft:20,marginTop:5,marginBottom:5}} >A weboldalon megtekinthetik a játékosok a játékban elért eredményüket a ranglisták oldalainak megtekintésével.</Text>
+
+
+<Text style={{color:"#f4f4f4",fontSize:18,textAlign:"center",marginleft:20,marginTop:5,marginBottom:5}} >A Kropki Sudoku szabályai</Text>
+  <Text style={{color:"#f4f4f4",fontSize:12,textAlign:"center",marginleft:20,marginTop:5,marginBottom:5}} >A Kropki Sudokuban a megszokott Sudokuhoz hasonlóan minden sorban és oszlopban minden szám csak egyszer szerepelhet, így kell elérni, hogy minden mezőben szerepeljen egy szám. </Text>
+  <Text style={{color:"#f4f4f4",fontSize:12,textAlign:"center",marginleft:20,marginTop:5,marginBottom:5}} >Ami miatt eltér a Kropki Sudoku a megszokottól, az az, hogy a Sudokuban nem szerepel előre megadott szám, teljesen üres a Sudoku. </Text>
+  <Text style={{color:"#f4f4f4",fontSize:12,textAlign:"center",marginleft:20,marginTop:5,marginBottom:5}} >A számokat a Sudoku négyzeteinek rácsain szereplő fehér és fekete vonalak alapján kell kitalálni. </Text>
+  <Text style={{color:"#f4f4f4",fontSize:12,textAlign:"center",marginleft:20,marginTop:5,marginBottom:5}} >A fekete vonal melletti számok közül az egyik kétszer annyi, mint a másik, míg a fehér vonal két oldalán olyan két szám kell legyen, amelyek a különbsége 1.</Text>
+
       </View>
     );
   }
