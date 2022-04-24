@@ -14,7 +14,7 @@ export default class FetchExample extends React.Component {
 
 
   componentDidMount(){
-    return fetch('http://172.16.0.180:3000/Ranglista4')
+    return fetch('http://localhost:3000/Ranglista4')
       .then((response) => response.json())
       .then((responseJson) => {
 
